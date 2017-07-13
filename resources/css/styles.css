@@ -13,7 +13,7 @@ html,
 body {
     background-color: #fff;
     color: #fff;
-    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Poiret One', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -87,11 +87,6 @@ body {
 }
 
 /* ---- HEADERS ---- */
-
-h1,
-h2,
-footer {font-family: 'Poiret One', sans-serif;}
-
 h1 {
     letter-spacing: 5px;
     font-size: 5.0em;
@@ -235,8 +230,6 @@ a,
     font-size: 70%;
 }
 
-.jumbo-txt h2 {font-family:'Nothing You Could Do', cursive;}
-
 #jumbo-logo {font-size: 6.0em;}
 
 /*---------------------------------*/
@@ -287,7 +280,6 @@ a,
 /*---------------------------------*/
 
 .about-our-candles {
-    font-size: 120%;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url(img/setting-min.jpg) no-repeat;
     padding: 3% 0;

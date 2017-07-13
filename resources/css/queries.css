@@ -32,9 +32,10 @@
     
     body {font-size: 18px;}
     
-    .jumbotron { height: 70vh;}
-    
-    .jumbo-txt {font-size: 50%;}
+    .jumbo-txt {
+        margin: 20% 0;
+        font-size: 50%;
+    }
     
     .btn-ghost {
         padding: 5px !important;
@@ -69,7 +70,9 @@
     
     body {font-size: 16px;}
     
-    .jumbotron { height: 80vh;}
+    .jumbo-txt {
+        margin: 25% 0;
+    }
     
     .jumbotron,
     .about-our-candles,
@@ -107,6 +110,21 @@
 
 /*Small phones: from 0 to 480px*/
 @media only screen and (max-width: 480px){
+    
+    h2{
+	letter-spacing: 3.5px;
+    font-size: 1.95em;
+}
+    
+    h3{
+	letter-spacing: 3px;
+    font-size: 1.45em;
+}
+    
+    .jumbo-txt {
+        margin: 30% 0;
+        font-size: 45%;
+    }
     
     .feature-box a > img {
         width: 100%;
