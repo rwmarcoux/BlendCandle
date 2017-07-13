@@ -111,19 +111,8 @@
 /*Small phones: from 0 to 480px*/
 @media only screen and (max-width: 480px){
     
-    h2{
-	letter-spacing: 3.5px;
-    font-size: 1.95em;
-}
-    
-    h3{
-	letter-spacing: 3px;
-    font-size: 1.45em;
-}
-    
-    .jumbo-txt {
-        margin: 30% 0;
-        font-size: 45%;
+    .jumbo-txt h1 {
+        margin-top: 30%;
     }
     
     .feature-box a > img {
