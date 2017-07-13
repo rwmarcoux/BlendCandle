@@ -221,7 +221,7 @@ a,
 /*---------------------------------*/
 
 .jumbotron {
-    background: linear-gradient(rgba(183, 110, 121, 0.7),rgba(0, 0, 0, 0.7)), url(img/BirdsEye.jpg) no-repeat;
+    background: linear-gradient(rgba(183, 110, 121, 0.7),rgba(0, 0, 0, 0.7)), url(img/BirdsEye-min.jpg) no-repeat;
     overflow: none;
     background-size: cover;
     background-position: center;
@@ -289,7 +289,7 @@ a,
 .about-our-candles {
     font-size: 120%;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url(img/setting.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url(img/setting-min.jpg) no-repeat;
     padding: 3% 0;
     overflow: none;
     background-size: cover;
@@ -333,7 +333,7 @@ a,
 
 .about {
     padding: 3% 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/providence.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/providence-min.jpg) no-repeat;
     overflow: none;
     background-size: cover;
     background-position: center;
