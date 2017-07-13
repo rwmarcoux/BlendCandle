@@ -224,7 +224,7 @@ a,
     background: linear-gradient(rgba(183, 110, 121, 0.7),rgba(0, 0, 0, 0.7)), url(img/BirdsEye.jpg) no-repeat;
     overflow: none;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-attachment: fixed;
     height: 95vh;
     margin: 0;
