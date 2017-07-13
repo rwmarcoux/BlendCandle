@@ -217,7 +217,7 @@ a,
 
 .jumbotron {
     background: linear-gradient(rgba(183, 110, 121, 0.7),rgba(0, 0, 0, 0.7)), url(img/BirdsEye-min.jpg) no-repeat;
-    overflow: none;
+    overflow: hidden;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -283,7 +283,7 @@ a,
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url(img/setting-min.jpg) no-repeat;
     padding: 3% 0;
-    overflow: none;
+    overflow: hidden;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
