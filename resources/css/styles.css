@@ -333,7 +333,7 @@ a,
 
 .about {
     padding: 3% 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/providence.JPG) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/providence.jpg) no-repeat;
     overflow: none;
     background-size: cover;
     background-position: center;
