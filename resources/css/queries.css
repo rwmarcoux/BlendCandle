@@ -30,8 +30,6 @@
 /*Bootstrap Accordion 991px*/
 @media only screen and (max-width: 991px){
     
-    body {font-size: 18px;}
-    
     .jumbo-txt {
         margin: 20% 0;
         font-size: 50%;
@@ -67,8 +65,6 @@
 
 /*Small phones to small tablets: from 481px to 767px*/
 @media only screen and (max-width: 767px){
-    
-    body {font-size: 16px;}
     
     .jumbo-txt {
         margin: 25% 0;

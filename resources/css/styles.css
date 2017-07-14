@@ -13,9 +13,9 @@ html,
 body {
     background-color: #fff;
     color: #fff;
-    font-family: 'Poiret One', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     text-align: center;
@@ -87,6 +87,10 @@ body {
 }
 
 /* ---- HEADERS ---- */
+h1,
+h2,
+h3 {font-family: 'Poiret One', cursive;}
+
 h1 {
     letter-spacing: 5px;
     font-size: 5.0em;
@@ -157,9 +161,9 @@ a,
 .text {
     color: #fff;
     background: rgba(172, 87, 100, 0.95);
-    padding: 2%;
+    padding: 3%;
     border-radius: 5px;
-    font-size: 150%;
+    font-size: 140%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -296,7 +300,6 @@ a,
 .ion-ios-flame-outline{color: #ff5722;}
 
 .about-our-candles p {
-    font-family: 'Poiret One', cursive;
     padding-bottom: 3%;
 }
 
@@ -341,10 +344,7 @@ a,
     padding-top: 2%;
     margin: 0;
     overflow: auto;
-    font-family: 'Poiret One', cursive;
 }
-
-.nycd h2 {font-family: 'Nothing You Could Do', cursive;}
 
 /*---------------------------------*/
 /* FOOTER */
@@ -409,6 +409,3 @@ footer {
 .ion-social-instagram-outline:hover {color: #e95950;}
 
 .copyright:hover {color: #b76e79;}
-
-/* champagne #f7e7ce*/
-/* gold? #eeb14f*/
