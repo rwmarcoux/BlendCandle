@@ -32,6 +32,8 @@ body {
 	letter-spacing: .166em;
 }
 
+img {border-radius: 5px;}
+
 /* ---- BUTTONS ---- */
 
 .btn-ghost,
@@ -40,7 +42,7 @@ body {
 #btn-jumbo {
     text-align: center;
     text-transform: capitalize;
-    border: 1px solid #b76879 !important;
+    border: 1px solid #b76879;
     border-radius: 5px;
 }
 
@@ -53,7 +55,7 @@ body {
 }
 
 .btn-full,
-.btn-success {background: #b76879 !important;}
+.btn-success {background: #b76879;}
 
 .btn-ghost {
     color: #fff !important;
@@ -61,6 +63,7 @@ body {
     font-size: 1.1em;
     margin: 6% 1% 1% 1%;
     padding: 10px !important;
+    width: 75px;
 }
 
 .btn-full:hover,
@@ -71,7 +74,7 @@ body {
 .btn-success:active,
 #btn-jumbo:hover,
 #btn-jumbo:active {
-    color: #fff !important;
+    color: #fff;
     background: #ac5764 !important;
     border-color: #ac5764;
 }
@@ -124,7 +127,7 @@ a:hover,
 a:active{color: #b76e79;}
 
 a,
-.navbar-nav {
+.navbar-nav{
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
     -webkit-transition: background 0.3s;
@@ -217,10 +220,10 @@ a,
 
 .jumbo-txt {
     margin: 10% 0;
-    font-size: 70%;
+    font-size: 80%;
 }
 
-#jumbo-logo {font-size: 6.0em;}
+#jumbo-logo {font-size: 5.0em;}
 
 /*---------------------------------*/
 /* FEATURE */
@@ -230,40 +233,10 @@ a,
 .candle-box,
 .main-box {border: #fff;}
 
-.featured{
-    background: #fff;
-    padding: 3% 0;
-}
+.featured{padding: 3% 0;}
 
 .featured,
 .main-collection {color: #1c1c1c;}
-
-.feature-box,
-.main-box {
-    position: relative;
-    width: auto;
-    padding: 2%;
-}
-
-.featured hr{ margin-bottom: 3%;}
-
-.feature-box a > img,
-.main-box a > img {
-    height: 100%;
-    width: 100%;
-    overflow: visible;
-    border-radius: 5px;
-}
-
-.feature-h2 {
-    text-align: center;
-    float: none;
-    padding: 1.5% 0;
-}
-
-.featured hr:last-of-type {
-    margin-bottom: 5%;
-}
 
 /*---------------------------------*/
 /* OUR CANDLES */
@@ -283,7 +256,7 @@ a,
 
 .ion-ios-heart-outline {color: #b76e79;}
 
-.ion-ios-flame-outline{color: #ff5722;}
+.ion-ios-flame-outline {color: #ff5722;}
 
 .about-our-candles p {
     padding-bottom: 3%;
@@ -306,8 +279,6 @@ a,
     padding-bottom: 5%;
 }
 
-.title-bar {margin-bottom: 3%;}
-
 /*---------------------------------*/
 /* ABOUT */
 /*---------------------------------*/
@@ -322,14 +293,6 @@ a,
     height: auto;
     width: 100%;
     text-align: left;
-}
-
-.about-content {font-size: 1em;}
-
-.about p {
-    padding-top: 2%;
-    margin: 0;
-    overflow: auto;
 }
 
 /*---------------------------------*/
