@@ -108,7 +108,7 @@ h3{
 
 h4{
 	letter-spacing: 2.5px;
-    font-size: 1.25em;
+    font-size: 1.2em;
 }
 
 /* ---- LINKS ---- */
@@ -200,20 +200,6 @@ a,
 
 .logo:hover,
 .logo:active{color: #9d9d9d !important;}
-
-.navbar-text {
-    text-transform: capitalize;
-	letter-spacing: 2.5px;
-    color: #1c1c1c;
-}
-
-.navbar-candle-text {
-    font-weight: 700;
-    font-size: 15px;
-	letter-spacing: 1.25px;
-}
-
-.navbar-candle-text a { color: #1c1c1c;}
 
 /*---------------------------------*/
 /* JUMBOTRON */
